@@ -1,16 +1,17 @@
-USTH ICT 2024 Web Application Development
-=====================================================
+# Multi-Page Business Website
 
-Students are expected to:
+## Project Overview
+This project is focused on creating a multi-page business website, providing a modern and professional online presence.
 
-* Fork this repository to your github account
-* Update student name and ID to this README file
-* Push your commits regularly, with proper commit messages
+## Team Information
 
-Student Info
-=======================
+### Group Leader
+- **Name:** Nguyễn Thái Bình  
+- **Student ID:** 22BI13059  
+- **Group ID:** 12  
 
-* Name: Nguyễn Thái Bình
-* ID: 22BI13059
-* Group ID: 12
-* Project Name: Multi-Page Business Website
+### Group Members
+- **Bùi Việt An** - 22BI13001  
+- **Phạm Lê Quý Đức** - 22BI13096  
+- **Vũ Tuấn Hải** - 22BI13149  
+- **Nguyễn Quan Hưng** - 22BI13184  

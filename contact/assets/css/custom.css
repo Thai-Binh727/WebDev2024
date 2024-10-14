@@ -1,0 +1,22 @@
+.map {  
+    padding: 10px 300px;
+}
+.button {
+    background-color: cornflowerblue;
+    color:white;
+    border-color: cornflowerblue;
+    border-radius: 5px 5px 5px 5px;
+}
+.button-2 {
+    background-color: cornflowerblue;
+    color:white;
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+    padding: 10px;
+}
+.email {
+    color: white
+}
+.form {
+    color:black
+}

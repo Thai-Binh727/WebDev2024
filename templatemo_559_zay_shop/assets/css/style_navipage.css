@@ -85,6 +85,6 @@ ul{
 }
 
 .rating-value {
-    margin-right: 10px; /* Adjust this value as needed */
-    font-weight: bold; /* Optional: Makes the rating number bold */
+    margin-right: 10px; 
+    font-weight: bold; 
 }

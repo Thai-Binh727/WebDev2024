@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(45 deg, #410358, #4700bc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: #383838;
+    padding: 10px, 40px;
+    border-radius: 6px;
+}
+
+ul{
+    margin: 20px ;
+}
+
+.pagination a{
+    display: inline-block;
+    margin:  0 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 45px;
+    cursor: pointer;
+    background-position: 0 -45px;
+    transition: background-position 0.5s;
+    text-decoration: none;
+    color: inherit; 
+
+}
+
+.pagination a.active{
+    color: #fff;
+    background-image: linear-gradient(#6aff45, #51ff45);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#nav-a ul li{
+    display: inline-block;
+    margin:  0 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 45px;
+    cursor: pointer;
+    background-position: 0 -45px;
+    transition: background-position 0.5s;
+}
+
+#nav-a ul li.active{
+    color: #fff;
+    background-image: linear-gradient(#6aff45, #51ff45);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.btn1{
+    display: inline-flex;
+    align-items:  center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #383838;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.rating-value {
+    margin-right: 10px; /* Adjust this value as needed */
+    font-weight: bold; /* Optional: Makes the rating number bold */
+}

@@ -1,0 +1,22 @@
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-primary {
+    background-color: #182B53 !important;
+}
+
+.btn-info {
+    background-color: #6F8FAF !important;
+    border-color: #6F8FAF !important;
+}
+
+.btn-info:hover {
+    opacity: .7;
+}

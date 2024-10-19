@@ -1,0 +1,490 @@
+/*chinh body nav1 nav2 footer*/
+/* start nav bar1 */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#nav1 {
+    background-color: #212934;           
+    padding: 12px 80px;          
+    display: flex;                     
+    justify-content: space-between;  
+    align-items: center;           
+    top: 0;                  
+    left: 0;                        
+    right: 0;                         
+    width: 100%;                       
+    box-sizing: border-box;
+}
+
+#nav1_contact a {
+    color: lightblue;               
+    text-decoration: none;           
+    font-size: 12px;                  
+    margin-right: 15px;              
+}
+
+#nav1_social a {
+    color: lightblue;                 
+    text-decoration: none;            
+    font-size: 12px;                  
+    margin-left: 15px;             
+}
+
+#nav1_contact a:hover,
+#nav1_social a:hover {
+    color: #ddd;                      
+}
+/* end nav bar1 */
+
+
+/* start nav bar2 */
+#nav2 {
+    background-color: rgb(223, 178, 13); 
+    padding: 15px 80px;                 
+    display: flex;                   
+    justify-content: space-between;    
+    align-items: center;            
+    left: 0;                       
+    right: 0;                       
+    width: 100%;                    
+    box-sizing: border-box;
+}
+
+#nav2_logo a {
+    font-size: 50px;
+    text-decoration: none; 
+}
+
+
+#nav2_hub {
+    display: flex;                     
+    gap: 120px;                         
+}
+
+#nav2_hub a {
+    color: lightblue;                 
+    text-decoration: none;             
+    font-size: 20px;                 
+}
+
+#nav2_icon a {
+    color: lightblue;
+    text-decoration: none;           
+    font-size: 15px;                  
+    margin-left: 15px;                
+}
+
+.bg-light {
+    background-color: #d30205;
+}
+
+/* end nav bar2 */
+
+/* start footer*/
+#custom_footer {
+    background-color: #181a1e;
+    color: #d3d3d3;
+    font-family: Arial, sans-serif;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 23%;
+}
+
+.footer-section h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li i {
+    margin-right: 10px;
+    color: #4CAF50; 
+}
+
+.footer-section ul li a {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-icons {
+    width: 50%;
+}
+
+.footer-icons ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons ul li {
+    display: inline-block;
+}
+
+.footer-icons ul li a {
+    color: #d3d3d3;
+    font-size: 1.5em;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.footer-icons ul li a:hover {
+    color: #ffffff;
+    border-color: #4CAF50;
+}
+
+.subscribe-section {
+    display: flex;
+    align-items: center;
+    width: 23%;
+}
+
+.subscribe-section input {
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    background-color: #181a1e;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 70%;
+}
+
+.subscribe-section .subscribe-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-section .subscribe-button:hover {
+    background-color: #45a049;
+}
+
+.footer-bottom {
+    background-color: #101010;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #d3d3d3;
+}
+
+.footer-bottom p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.footer-bottom p a:hover {
+    text-decoration: underline;
+}
+/* end footer*/
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.product-title,
+.product-price,
+.product-rating,
+.product-info,
+.product-description,
+.product-specs {
+    text-align: left; 
+}
+
+.card-img {
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-inner {
+    margin: 10px 0;
+}
+
+.carousel-item img {
+    height: 100px;
+    object-fit: contain;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+h1, h2, h3, h6 {
+    font-weight: bold;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-number {
+    padding: 5px 15px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.btn-size {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-size:hover {
+    background-color: #218838;
+}
+
+.btn-minus, .btn-plus {
+    padding: 8px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-minus:hover, .btn-plus:hover {
+    background-color: #218838;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+
+
+/* General styles for product section */
+#product-section {
+    background-color: #f8f9fa;
+    padding-bottom: 30px;
+}
+
+/* Product images */
+.product-images {
+    margin-top: 30px;
+}
+
+.product-main-image img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-control {
+    cursor: pointer;
+}
+
+.carousel-inner .thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.product-thumbnail {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Product details */
+.product-details {
+    margin-top: 30px;
+}
+
+.product-title {
+    font-size: 2rem;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    color: #28a745;
+}
+
+.product-rating i {
+    color: #ffc107;
+}
+
+.product-rating i.half {
+    color: #dcdcdc;
+}
+
+.rating-info {
+    margin-left: 10px;
+}
+
+.product-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-info li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.product-description {
+    margin-top: 15px;
+}
+
+.product-specs {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.form-group {
+    margin-top: 15px;
+}
+
+/* Ensure size and quantity buttons are in a row */
+ul.list-inline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Adjust button styles */
+.btn-size, .btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Make buttons in the same row take up the full width of the container */
+.w-100 {
+    width: 100%;
+}
+
+/* Styling for buttons */
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-lg {
+    font-size: 18px;
+    padding: 12px 0;
+}
+.quantity-value {
+    padding: 10px;
+    background-color: #dcdcdc;
+    border-radius: 4px;
+}
+
+/*kjasdfkjnaskj*/
+.related-products-section {
+    padding: 2rem 0;
+}
+
+.carousel2-wrapper {
+    display: flex;
+    scroll-snap-type: x mandatory; /* For smooth scrolling */
+}
+
+.product2-wap {
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth hover effect */
+    margin: 10px;
+}
+
+.product2-wap:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.product2-title {
+    text-decoration: none; /* No underline on product title */
+    font-weight: bold; /* Bold title */
+    color: #333; /* Title color */
+}
+
+.product2-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; /* Smooth transition */
+    position: absolute; /* Positioning for overlay */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.product2-wap:hover .product2-overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.card-body {
+    text-align: center; /* Center content in card */
+}
+
+.card-img {
+    height: auto; /* Auto height for images */
+    max-width: 100%; /* Responsive images */
+}
+
+
+
+

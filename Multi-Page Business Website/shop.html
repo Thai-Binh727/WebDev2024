@@ -139,13 +139,12 @@
 
             <div class="col-lg-9">
                 <div class="col-md-6 pb-4">
-                    <select class="form-control">
-                        <option>Most views</option>
-                        <option>Name</option>
-                        <option>Price</option>
+                    <select id="sortOptions" class="form-control mb-4">
+                        <option value="name">Sort by Name</option>
+                        <option value="price">Sort by Price</option>
                     </select>
                 </div>
-                <div class="row">
+                <div class="row" id="productContainer">
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
@@ -673,6 +672,7 @@
     <script src="JS/jquery-migrate-1.2.1.min.js"></script>
     <script src="JS/bootstrap.bundle.min.js"></script>
     <script src="JS/script.js"></script>
+    <script src="JS/sorting.js"></script>
     <!-- End Script -->
 </body>
 
